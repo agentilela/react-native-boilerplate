@@ -1,0 +1,22 @@
+{
+  "presets": ["react-native", "react-native-dotenv"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "assets": "./assets",
+          "components": "./components",
+          "configs": "./configs",
+          "containers": "./containers",
+          "screens": "./screens",
+          "stores": "./stores",
+          "style": "./style",
+          "utils": "./utils"
+        },
+        "cwd": "./app"
+      }
+    ],
+    "transform-decorators-legacy"
+  ]
+}

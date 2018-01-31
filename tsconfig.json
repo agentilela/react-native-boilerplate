@@ -1,0 +1,51 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "baseUrl": "./app",
+    "experimentalDecorators": true,
+    "jsx": "react-native",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "importHelpers": true,
+    "removeComments": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "isolatedModules": true,
+    "paths": {
+      "assets/*": ["assets/*"],
+      "components/*": ["components/*"],
+      "configs/*": ["configs/*"],
+      "containers/*": ["containers/*"],
+      "screens/*": ["screens/*"],
+      "stores/*": ["stores/*"],
+      "style/*": ["style/*"],
+      "utils/*": ["utils/*"]
+    },
+    "plugins": [
+      {
+        "name": "tslint-language-service"
+      }
+    ],
+    "pretty": true,
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "strict": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "esnext"
+  },
+  "exclude": ["android/*", "buildUtils/*", "coverage/*", "ios/*", "node_modules/*"],
+  "include": [
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "storybook/**/*.ts",
+    "storybook/**/*.tsx",
+    "types/**/*.d.ts"
+  ]
+}

@@ -1,0 +1,4 @@
+{
+      "app/**/*.ts": ["prettier", "lint", "git add" ],
+      "app/**/*.tsx": ["prettier", "lint", "git add" ],
+}

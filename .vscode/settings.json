@@ -1,0 +1,13 @@
+{
+  "path-intellisense.mappings": {
+    "assets": "${workspaceRoot}/app/assets",
+    "components": "${workspaceRoot}/app/components",
+    "configs": "${workspaceRoot}/app/configs",
+    "containers": "${workspaceRoot}/app/containers",
+    "screens": "${workspaceRoot}/app/screens",
+    "stores": "${workspaceRoot}/app/stores",
+    "style": "${workspaceRoot}/app/style",
+    "utils": "${workspaceRoot}/app/utils"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
